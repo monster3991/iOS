@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8497166F184161EE003B2B57 /* VSAddEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497166D184161ED003B2B57 /* VSAddEditViewController.m */; };
+		84A086AC183B5561002F996C /* VSButtonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A086AA183B5561002F996C /* VSButtonsViewController.m */; };
+		84A086AD183B5561002F996C /* VSButtonsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A086AB183B5561002F996C /* VSButtonsViewController.xib */; };
+		84A0EA8F185AD3CC00613455 /* VSAddEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A0EA8E185AD3CC00613455 /* VSAddEditViewController.xib */; };
 		84A109981836BE7400F89003 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A109971836BE7400F89003 /* Foundation.framework */; };
 		84A1099A1836BE7400F89003 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A109991836BE7400F89003 /* CoreGraphics.framework */; };
 		84A1099C1836BE7400F89003 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A1099B1836BE7400F89003 /* UIKit.framework */; };
@@ -19,6 +23,10 @@
 		84A109B31836BE7400F89003 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A1099B1836BE7400F89003 /* UIKit.framework */; };
 		84A109BB1836BE7400F89003 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84A109B91836BE7400F89003 /* InfoPlist.strings */; };
 		84A109BD1836BE7400F89003 /* iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A109BC1836BE7400F89003 /* iOSTests.m */; };
+		84A27ADB185C70840002BE89 /* background3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84A27ADA185C70840002BE89 /* background3.jpg */; };
+		84A352E11844098300CE7C7A /* VSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A352E01844098300CE7C7A /* VSTableViewController.m */; };
+		84B1FD2E1838E70A0007CD7C /* VSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B1FD2C1838E70A0007CD7C /* VSMainViewController.m */; };
+		84B1FD2F1838E70A0007CD7C /* VSMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B1FD2D1838E70A0007CD7C /* VSMainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8497166C184161ED003B2B57 /* VSAddEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSAddEditViewController.h; sourceTree = "<group>"; };
+		8497166D184161ED003B2B57 /* VSAddEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSAddEditViewController.m; sourceTree = "<group>"; };
+		84A086A9183B5561002F996C /* VSButtonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSButtonsViewController.h; sourceTree = "<group>"; };
+		84A086AA183B5561002F996C /* VSButtonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSButtonsViewController.m; sourceTree = "<group>"; };
+		84A086AB183B5561002F996C /* VSButtonsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VSButtonsViewController.xib; sourceTree = "<group>"; };
+		84A0EA8E185AD3CC00613455 /* VSAddEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VSAddEditViewController.xib; sourceTree = "<group>"; };
 		84A109941836BE7400F89003 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A109971836BE7400F89003 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84A109991836BE7400F89003 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +62,12 @@
 		84A109B81836BE7400F89003 /* iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSTests-Info.plist"; sourceTree = "<group>"; };
 		84A109BA1836BE7400F89003 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84A109BC1836BE7400F89003 /* iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSTests.m; sourceTree = "<group>"; };
+		84A27ADA185C70840002BE89 /* background3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background3.jpg; sourceTree = "<group>"; };
+		84A352DF1844098300CE7C7A /* VSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSTableViewController.h; sourceTree = "<group>"; };
+		84A352E01844098300CE7C7A /* VSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSTableViewController.m; sourceTree = "<group>"; };
+		84B1FD2B1838E70A0007CD7C /* VSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSMainViewController.h; sourceTree = "<group>"; };
+		84B1FD2C1838E70A0007CD7C /* VSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSMainViewController.m; sourceTree = "<group>"; };
+		84B1FD2D1838E70A0007CD7C /* VSMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VSMainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,9 +128,24 @@
 			isa = PBXGroup;
 			children = (
 				84A109A61836BE7400F89003 /* VSAppDelegate.h */,
+				84B1FD2B1838E70A0007CD7C /* VSMainViewController.h */,
+				84A352DF1844098300CE7C7A /* VSTableViewController.h */,
+				8497166C184161ED003B2B57 /* VSAddEditViewController.h */,
+				84A086A9183B5561002F996C /* VSButtonsViewController.h */,
 				84A109A71836BE7400F89003 /* VSAppDelegate.m */,
+				84B1FD2C1838E70A0007CD7C /* VSMainViewController.m */,
+				84A352E01844098300CE7C7A /* VSTableViewController.m */,
+				8497166D184161ED003B2B57 /* VSAddEditViewController.m */,
+				84A086AA183B5561002F996C /* VSButtonsViewController.m */,
+				84B1FD2D1838E70A0007CD7C /* VSMainViewController.xib */,
+				84A0EA8E185AD3CC00613455 /* VSAddEditViewController.xib */,
+				84A086AB183B5561002F996C /* VSButtonsViewController.xib */,
 				84A109A91836BE7400F89003 /* Images.xcassets */,
 				84A1099E1836BE7400F89003 /* Supporting Files */,
+				84A1099F1836BE7400F89003 /* iOS-Info.plist */,
+				84A109A01836BE7400F89003 /* InfoPlist.strings */,
+				84A109A31836BE7400F89003 /* main.m */,
+				84A109A51836BE7400F89003 /* iOS-Prefix.pch */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -118,10 +153,7 @@
 		84A1099E1836BE7400F89003 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				84A1099F1836BE7400F89003 /* iOS-Info.plist */,
-				84A109A01836BE7400F89003 /* InfoPlist.strings */,
-				84A109A31836BE7400F89003 /* main.m */,
-				84A109A51836BE7400F89003 /* iOS-Prefix.pch */,
+				84A27ADA185C70840002BE89 /* background3.jpg */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -220,8 +252,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B1FD2F1838E70A0007CD7C /* VSMainViewController.xib in Resources */,
+				84A27ADB185C70840002BE89 /* background3.jpg in Resources */,
 				84A109A21836BE7400F89003 /* InfoPlist.strings in Resources */,
+				84A0EA8F185AD3CC00613455 /* VSAddEditViewController.xib in Resources */,
 				84A109AA1836BE7400F89003 /* Images.xcassets in Resources */,
+				84A086AD183B5561002F996C /* VSButtonsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +276,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A086AC183B5561002F996C /* VSButtonsViewController.m in Sources */,
+				8497166F184161EE003B2B57 /* VSAddEditViewController.m in Sources */,
 				84A109A41836BE7400F89003 /* main.m in Sources */,
 				84A109A81836BE7400F89003 /* VSAppDelegate.m in Sources */,
+				84A352E11844098300CE7C7A /* VSTableViewController.m in Sources */,
+				84B1FD2E1838E70A0007CD7C /* VSMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +403,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS/iOS-Prefix.pch";
 				INFOPLIST_FILE = "iOS/iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -376,6 +417,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS/iOS-Prefix.pch";
 				INFOPLIST_FILE = "iOS/iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -442,6 +484,7 @@
 				84A109C21836BE7400F89003 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84A109C31836BE7400F89003 /* Build configuration list for PBXNativeTarget "iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +493,7 @@
 				84A109C51836BE7400F89003 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
