@@ -8,7 +8,6 @@
 
 #import "VSAppDelegate.h"
 #import "VSMainViewController.h"
-#import "VSButtonsViewController.h"
 
 @implementation VSAppDelegate
 
@@ -16,7 +15,6 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    /*VSMainViewController *MainViewController = [ [VSMainViewController alloc] initWithNibName:@"VSMainViewController" bundle:nil ];//initialize view controller (name of file, nil)*/
     VSMainViewController *MainViewController = [ [VSMainViewController alloc] init ];
     
     UINavigationController *navigator = [ [UINavigationController alloc] initWithRootViewController:MainViewController ];//(first controller)
@@ -30,10 +28,6 @@
     return YES;
 }
 
-- (IBAction)Edit1ButtonItem:(id)sender
-{
-    
-}
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
